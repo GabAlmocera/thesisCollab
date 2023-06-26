@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    android:layout_gravity="fill"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.theme.HomePage">
+
+    <ImageView
+        android:id="@+id/btnreturn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/returnicon" />
+
+    <ImageView
+        android:id="@+id/btnfileupload"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/uploadimageicon" />
+
+    <ImageView
+        android:id="@+id/btnprofile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/profileicon" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/pitayaapplogo" />
+
+    <ImageView
+        android:id="@+id/btnsettings"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="450dp"
+        app:srcCompat="@drawable/settingicon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="400dp"
+        android:text="SCAN IMAGE"
+        android:textColor="@color/velvet" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/velvet" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="570dp"
+        android:textColor="@color/velvet" />
+
+
+</RelativeLayout>
